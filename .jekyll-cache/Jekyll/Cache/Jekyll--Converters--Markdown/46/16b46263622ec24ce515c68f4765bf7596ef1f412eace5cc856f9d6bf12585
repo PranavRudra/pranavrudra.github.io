@@ -1,0 +1,6 @@
+I"’<p>\sol</p>
+
+<p>We will prove the following by induction on $n$.</p>
+
+\[x^n - y^n = (x - y)\left(\sum_{i = 0}^{n - 1}x^{n - 1 - i}y^{i} \right)\]
+:ET

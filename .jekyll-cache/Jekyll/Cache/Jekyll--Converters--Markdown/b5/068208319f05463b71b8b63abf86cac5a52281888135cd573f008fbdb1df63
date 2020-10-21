@@ -1,0 +1,12 @@
+I"=<h2 id="solution">Solution:</h2>
+
+<p>We will prove the following by induction on $n$.</p>
+
+\[x^n - y^n = (x - y)\left(\sum_{i = 0}^{n - 1}x^{n - 1 - i}y^{i} \right)\]
+
+<p>Rewriting $x^n - y^n$ in this form $\forall n \in \mathbb{Z}^{\geq 1}$ constructively shows that $(x - y) \mid (x^n - y^n)$. That is, it gives a $c \in \mathbb{Z}$ such that $c(x - y) = x^n - y^n$. For the base case $(n = 1)$, observe that $x^1 - y^1 = (x - y)$. For the inductive hypothesis (IH), assume that the formula holds for $n - 1$. Now, for the inductive step, we have</p>
+
+<p>(</p>
+
+<p>)</p>
+:ET
