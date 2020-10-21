@@ -15,3 +15,5 @@ This is a (work in progress) solutions manual to Udi Manber's [Introduction to A
 1. [Exercise 2.04]({% link _posts/2020-10-21-ManberChp2Exercise04.md %})
 1. [Exercise 2.05]({% link _posts/2020-10-21-ManberChp2Exercise05.md %})
 1. [Exercise 2.06]({% link _posts/2020-10-21-ManberChp2Exercise06.md %})
+1. Exercise 2.07
+1. [Exercise 2.08]({% link _posts/2020-10-21-ManberChp2Exercise08.md %})

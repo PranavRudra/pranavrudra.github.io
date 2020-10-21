@@ -1,0 +1,22 @@
+I"{<h2 id="solution">Solution:</h2>
+
+<p>We will induct on $n$. For the base case, consider $n = 1$.</p>
+
+\[2^{1 - 1}(a^1 + b^1) = (a + b) \geq (a + b) = (a + b)^1\]
+
+<p>For the inductive hypothesis (IH), assume</p>
+
+\[2^{n - 2}(a^{n - 1} + b^{n - 1}) \geq (a + b)^{n - 1}\]
+
+<p>Now, for the inductive step we have</p>
+
+<p>\begin{align<em>}
+    (a + b)^n &amp;= (a + b)^{n - 1}(a + b) <br />
+    &amp;\leq 2^{n - 2}(a^{n - 1} + b^{n - 1})(a + b) \text{ (IH)} <br />
+    &amp;= 2^{n - 2}(a^n + b^n + ab^{n - 1} + ba^{n - 1}) <br />
+    &amp;\leq 2^{n - 2}(a^n + b^n) <br />
+    &amp;\leq 2^{n - 1}(a^n + b^n)
+\end{align</em>}</p>
+
+\[\qed\]
+:ET
