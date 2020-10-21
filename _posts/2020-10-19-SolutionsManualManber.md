@@ -12,3 +12,4 @@ This is a (work in progress) solutions manual to Udi Manber's [Introduction to A
 ### Chapter 2: Mathematical Induction
 
 1. [Exercise 2.01]({% link _posts/2020-10-21-ManberChp2Exercise01.md %})
+1. [Exercise 2.02]({% link _posts/2020-10-21-ManberChp2Exercise02.md %})
