@@ -20,7 +20,8 @@ $$
         (x - y)\left(\sum_{i = 0}^{n - 1}x^{n - 1 - i}y^{i} \right) &= (x - y)\left(y^{n - 1} + \sum_{i = 0}^{n - 2}x^{n - 1 - i}y^{i} \right) \\
         &= (x - y)\left(y^{n - 1} + x\sum_{i = 0}^{n - 2}x^{n - 2 - i}y^{i} \right) \\
         &= (x - y)\left(y^{n - 1} + x\left[\frac{x^{n - 1} - y^{n - 1}}{x - y}\right] \right) \text{ (IH)} \\
-        &= (x - y)y^{n - 1} + x(x^{n - 1} - y^{n - 1}) = x^n - y^n
+        &= (x - y)y^{n - 1} + x(x^{n - 1} - y^{n - 1}) \\
+        &= x^n - y^n
     \end{align*}
 $$
 

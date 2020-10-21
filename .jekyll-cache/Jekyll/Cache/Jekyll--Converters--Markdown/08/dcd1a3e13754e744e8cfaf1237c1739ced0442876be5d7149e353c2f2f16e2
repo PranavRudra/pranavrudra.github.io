@@ -1,0 +1,22 @@
+I"<<h2 id="solution">Solution:</h2>
+
+<p>We will use induction. First, we conjecture (using some familiar formulas) that</p>
+
+\[\sum_{i = 1}^n \frac{1}{2^i} = \frac{\frac{1}{2}\left(1 - \left(\frac{1}{2}\right)^n \right)}{\frac{1}{2}} = 1 - \left(\frac{1}{2}\right)^n = \frac{2^n - 1}{2^n}\]
+
+<p>For the base case, consider $n = 1$. Clearly,</p>
+
+\[\sum_{i = 1}^1 \frac{1}{2^i} = \frac{1}{2} = \frac{2^1 - 1}{2^1}\]
+
+<p>For the inductive hypothesis (IH), assume</p>
+
+\[\sum_{i = 1}^{n - 1} \frac{1}{2^i} = \frac{2^{n - 1} - 1}{2^{n - 1}}\]
+
+<p>Now, for the inductive step we have</p>
+
+\[\sum_{i = 1}^n \frac{1}{2^i} &amp;= \left[ \sum_{i = 1}^{n - 1} \frac{1}{2^i} \right] + \frac{1}{2^n} \text{ (IH)} \\
+    &amp;= \frac{2^{n - 1} - 1}{2^{n - 1}} + \frac{1}{2^n} \\
+     = \frac{2^n - 2 + 1}{2^n} = \frac{2^n - 1}{2^n}\]
+
+\[\qed\]
+:ET
