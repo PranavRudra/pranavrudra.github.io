@@ -1,9 +1,0 @@
-I"û<h2 id="solution">Solution:</h2>
-
-<p>We will use constructive induction. First, we conjecture that for some $a, b, c, d \in \mathbb{R}$</p>
-
-<p>\(\sum_{i = 1}^n i^2 = an^3 + bn^2 + cn + d\)
-For the base cases, consider $n = 0, 1, 2, 3$.</p>
-
-\[\qed\]
-:ET
