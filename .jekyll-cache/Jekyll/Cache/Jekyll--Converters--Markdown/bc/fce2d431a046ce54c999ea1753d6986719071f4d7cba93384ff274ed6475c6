@@ -1,0 +1,8 @@
+I"¯<h2 id="solution">Solution:</h2>
+
+<p>We will induct on $n$. For the base case ($n = 3$), the theorem is true by assumption. That is, since there are only three points and every three points belong to a unit size cycle, there is clearly a unit size cycle containing all points in the plane. For the inductive hypothesis (IH), assume that the claim holds for $n - 1$. Now, for the inductive step, we must show that it holds for $n$.</p>
+
+<p>Let $p_1, p_2, p_3, \ldots, p_n$ be the $n$ points. By the inductive hypothesis, we know that there exists a unit size cycle $C = p_1, p_2, \ldots, p_{n - 1}, p_1$. Also, by assumption there exists a unit size cycle $Câ€™$ containing</p>
+
+\[\qed\]
+:ET

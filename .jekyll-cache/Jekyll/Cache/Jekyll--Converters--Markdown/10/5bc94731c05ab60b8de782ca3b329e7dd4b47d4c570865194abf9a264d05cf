@@ -1,0 +1,6 @@
+I"7<h2 id="solution">Solution:</h2>
+
+<p>We will induct on $n$. For the base case ($n = 3$), the theorem is true by assumption. That is, since there are only three points in the plane and every three points belong to a unit size cycle, there is clearly a unit size cycle containing all of the points.</p>
+
+\[\qed\]
+:ET

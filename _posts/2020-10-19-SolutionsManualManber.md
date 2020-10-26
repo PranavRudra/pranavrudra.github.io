@@ -20,9 +20,10 @@ This is a (work in progress) solutions manual to Udi Manber's [Introduction to A
 1. Exercise 2.09
 1. [Exercise 2.10]({% link _posts/2020-10-21-ManberChp2Exercise10.md %})
 1. [Exercise 2.11]({% link _posts/2020-10-21-ManberChp2Exercise11.md %})
-1. Exercise 2.12
+1. [Exercise 2.12]({% link _posts/2020-10-25-ManberChp2Exercise12.md %})
 1. Exercise 2.13
 1. [Exercise 2.14]({% link _posts/2020-10-21-ManberChp2Exercise14.md %})
 1. [Exercise 2.15]({% link _posts/2020-10-21-ManberChp2Exercise15.md %})
 1. [Exercise 2.16]({% link _posts/2020-10-25-ManberChp2Exercise16.md %})
 1. [Exercise 2.17]({% link _posts/2020-10-25-ManberChp2Exercise17.md %})
+1. Exercise 2.18
