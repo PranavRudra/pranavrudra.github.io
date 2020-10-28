@@ -1,6 +1,0 @@
-I"˜<h2 id="solution">Solution:</h2>
-
-<p>We will induct on $n$. For the base case, consider $n = 3$ and Let the $3$ lines be $l_1, l_2, l_3$.</p>
-
-\[\qed\]
-:ET

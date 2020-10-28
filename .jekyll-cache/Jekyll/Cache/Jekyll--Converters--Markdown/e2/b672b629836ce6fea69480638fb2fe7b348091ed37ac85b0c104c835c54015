@@ -1,8 +1,0 @@
-I"!<h2 id="solution">Solution:</h2>
-
-<p>Let $A$ be the chosen set of numbers and $[n] = \{1, 2, \ldots, n\}$. We will prove the claim by induction on $n$. For the base case, consider $n = 1$. Since there are only two elements in $[2]$ and we must pick $2$ numbers, it must be the case that $A = [2]$. As a result, there exist two numbers in $A$ that divide one another, namely $1 \mid 2$. For the inductive hypothesis, assume that the claim holds $\forall k \in \mathbb{Z}$ such that $1 \leq k \leq n - 1$. Now, for the inductive step, we have three disjoint cases.</p>
-
-<p>For the first, suppose $A$ consists of $n + 1$ numbers from $[2(n - 1)]$. That is, neither $2n - 1$ nor $2n$ is in $A$. By the inductive hypothesis ($k = n - 1$), for any $n$-subset of $[2(n - 1)]$, there exist two numbers that divide one another. Hence, this same holds for $A$ since it contains more than $n$ numbers from $[2(n - 1)]$. By the same reasoning, the claim is also true if $A$ is the union of some $n$-subset of $[2(n - 1)]$ and one of $\{2n - 1\}, \{2n\}$.</p>
-
-\[\qed\]
-:ET

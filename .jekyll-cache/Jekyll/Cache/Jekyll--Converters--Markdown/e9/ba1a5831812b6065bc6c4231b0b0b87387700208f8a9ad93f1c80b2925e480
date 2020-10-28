@@ -1,6 +1,0 @@
-I"¡<h2 id="solution">Solution:</h2>
-
-<p>We will induct on $n$. For the base case ($n = 3$), refer to the base case in exercise <a href="/ManberChp2Exercise16/">2.16</a>. For the inductive hypothesis (IH), assume that the claim holds for $n - 1$. Now, for the inductive step, we must show that the $n$ lines $l_1, l_2, \ldots, l_n$ form at least $n - 2$ triangles. By the inductive hypothesis, we know that</p>
-
-\[\qed\]
-:ET

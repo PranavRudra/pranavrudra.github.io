@@ -1,6 +1,0 @@
-I"µ<h2 id="solution">Solution:</h2>
-
-<p>We will induct on $n$. For the base case, consider $n = 3$ and let the $3$ lines be $l_1, l_2, l_3$. Since the lines are in general position, no two of them are parallel. Hence, every pair of lines intersects. Let $A, B, C$ be the intersections between $l_1, l_2$, $l_2, l_3$, and $l_1, l_3$.  $B$ be the intersection between $l_2, l_3$, and $C$ be the intersection between $l_1, l_3$.</p>
-
-\[\qed\]
-:ET

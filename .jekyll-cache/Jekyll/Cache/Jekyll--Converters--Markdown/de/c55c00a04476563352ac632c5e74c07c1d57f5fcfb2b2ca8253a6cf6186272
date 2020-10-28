@@ -1,8 +1,0 @@
-I"Ø<h2 id="solution">Solution:</h2>
-
-<p>We will induct on $n$. For the base case, consider $n = 2$. Clearly,</p>
-
-\[\frac{1}{3} + \frac{1}{4} = \frac{8}{24} + \frac{6}{24} = \frac{14}{24} &gt; \frac{13}{24}\]
-
-\[\qed\]
-:ET

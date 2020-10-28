@@ -1,8 +1,0 @@
-I"9<h2 id="solution">Solution:</h2>
-
-<p>We will induct on $n$. For the base case ($n = 3$), refer to the beginning of exercise <a href="/ManberChp2Exercise16/">2.16</a>. For the inductive hypothesis (IH), assume that the claim holds for $n - 1$. Now, for the inductive step, we must show that the $n$ lines $l_1, l_2, \ldots, l_n$ form at least $n - 2$ triangles.</p>
-
-<p>By the inductive hypothesis, we know that $l_1, l_2, \ldots, l_{n - 1}$ form at least $n - 3$ triangles. Also, since all lines are in general position, every pair of lines intersects. Hence, let $P_{i, n}$ be the intersection point of $l_i$ and $l_n$ for $1 \leq i &lt; n$. Moreover, since no three lines intersect at a common point, $P_{i, n}$ ($1 \leq i \leq ) and the intersection points of $l_1, l_2, \ldots, l_{n - 1}$ are all distinct.</p>
-
-\[\qed\]
-:ET
