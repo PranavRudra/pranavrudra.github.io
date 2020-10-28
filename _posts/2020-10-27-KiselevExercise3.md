@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Exercise 2 (page 7)
+title: Exercise 3 (page 7)
 category: solutions-manual
 displayed: false
 ---
 
-Let $A, B, C$ be the three geometric figures. Since $A \cong B$, we can superimpose $A$ onto $B$ such that the two become identified with one another in all parts (i.e. overlap perfectly). The same holds for $B$ and $C$ since $B \cong C$. As a result, we can superimpose $A$ onto $C$ in two steps. First, move $A$ into $B$'s position. Then, move $A$, which is now in $B$'s place, into $C$'s position. Since we have come up with a construction that perfectly overlaps $A$ with $C$, $A \cong C$. 
+Since the book has already given a logical proof, this answer will be based on intuition. Straight lines that intersect at two points fundamentally cannot be straight; one of them will always have to "bend" in order to intersect the other a second time. To see this, try to draw a variety of such lines with a straightedge.
