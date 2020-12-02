@@ -5,7 +5,7 @@ category: solutions-manual
 displayed: true
 ---
 
-This is a (work in progress) solutions manual to Udi Manber's [Introduction to Algorithms: A Creative Approach](https://www.amazon.com/Introduction-Algorithms-Creative-Udi-Manber/dp/0201120372/ref=sr_1_1?dchild=1&keywords=Manber+algorithms&qid=1603154131&sr=8-1). This is the only textbook I've ever found that actually explains how to design algorithms rather than simply presenting them (like [CLRS](https://www.amazon.com/Introduction-Algorithms-3rd-MIT-Press/dp/0262033844) and company). I hope to transform this forgotten book into a complete self-study resource by providing solutions to all 472 problems. Stay tuned for updates!
+This is a (work in progress) solutions manual to Udi Manber's [Introduction to Algorithms: A Creative Approach](https://www.amazon.com/Introduction-Algorithms-Creative-Udi-Manber/dp/0201120372/ref=sr_1_1?dchild=1&keywords=Manber+algorithms&qid=1603154131&sr=8-1). This is the only textbook I've ever found that actually explains how to design algorithms rather than simply presenting them (like [CLRS](https://www.amazon.com/Introduction-Algorithms-3rd-MIT-Press/dp/0262033844) et al). I hope to convert this forgotten book into a complete self-study resource by providing solutions to all 472 problems. Stay tuned for updates!
 
 ### Chapter 2: Mathematical Induction
 

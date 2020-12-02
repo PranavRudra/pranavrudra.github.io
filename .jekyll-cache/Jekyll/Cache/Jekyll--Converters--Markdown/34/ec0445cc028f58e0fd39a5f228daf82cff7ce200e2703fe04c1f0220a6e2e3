@@ -1,2 +1,0 @@
-I"»<p>Let $P$ be a plane and $l_1$ a line not contained in $P$ that intersects $P$ at a point $Q$. Further, let $R \ne Q$ be another point in $P$. Then, there exists a line $l_2$ in $P$ that contains both $R$ and $Q$. Note that $l_2 \ne l_1$ since $l_2$ lies in $P$ but $l_1$ does not. Now, by the previous exercise, there is no way for $l_1$ and $l_2$ to intersect at a point other than $Q$; doing so would imply . This completes the proof.</p>
-:ET
