@@ -1,0 +1,6 @@
+I"¬<h2 id="solution">Solution:</h2>
+
+<p>We induct on $n$. For the base case, consider $n = 1$. Since we have two regions, one inside the circle and one outside.</p>
+
+\[\qed\]
+:ET

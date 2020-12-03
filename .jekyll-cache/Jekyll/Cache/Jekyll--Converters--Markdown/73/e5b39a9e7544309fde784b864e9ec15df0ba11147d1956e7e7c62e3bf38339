@@ -1,0 +1,14 @@
+I"@<h2 id="solution">Solution:</h2>
+
+<p>We induct on $n$. For the base case, consider $n = 1$. Since we only have two regions, one inside the circle and one outside, we can easily color them with two colors. For the inductive hypothesis, assume the claim holds for $n - 1$ circles. Now, for the inductive step, we will introduce the $n^{th}$ circle $C_n$ and flip the colors of all regions that fall within $C_n$.</p>
+
+<p>To prove that this constitutes a valid coloring, consider two adjacent regions $R_1$, $R_2$. We have three cases: both regions lie outside $C_n$, both lie inside $C_n$, or $R_1$ and $R_2$ are separated by $C_n$.</p>
+
+<p>In the first, the coloring of $R_1$ and $R_2$ is unaffected by $C_n$. Moreover, by the induction hypothesis, $R_1$ and $R_2$ had different colors before $C_n$ was introduced. Thus, the two regions have different colors even after $C_n$ is drawn in.</p>
+
+<p>If $R_1$, $R_2$ lie on opposite sides of $C_n$, the two regions must have been part of the same region, say $R_i$, before $C_n$ was introduced. Hence, by the procedure above, the region outside $C_n$ retains the color of $R_i$ while the region inside $C_n$ gets the opposite color.</p>
+
+<p>Finally, if $R_1$, $R_2$ both lie inside $C_n$, they must have been part of distinct regions $R_i, R_j$ respectively before $C_n$ was drawn in.</p>
+
+\[\qed\]
+:ET

@@ -27,3 +27,4 @@ This is a (work in progress) solutions manual to Udi Manber's [Introduction to A
 1. [Exercise 2.16]({% link _posts/2020-10-25-ManberChp2Exercise16.md %})
 1. [Exercise 2.17]({% link _posts/2020-10-25-ManberChp2Exercise17.md %})
 1. Exercise 2.18
+1. [Exercise 2.19]({% link _posts/2020-12-02-ManberChp2Exercise19.md %})
