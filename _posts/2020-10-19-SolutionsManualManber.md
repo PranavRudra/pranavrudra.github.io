@@ -33,6 +33,7 @@ This is a (work in progress) solutions manual to Udi Manber's [Introduction to A
 
 - [Exercise 3.01]({% link _posts/2020-12-06-ManberChp3Exercise01.md %})
 - Exercise 3.02
-- Exercise 3.03
+- [Exercise 3.03]({% link _posts/2020-12-06-ManberChp3Exercise03.md %})
 - [Exercise 3.04]({% link _posts/2020-12-06-ManberChp3Exercise04.md %})
+
 
