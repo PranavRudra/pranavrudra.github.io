@@ -28,3 +28,7 @@ This is a (work in progress) solutions manual to Udi Manber's [Introduction to A
 - [Exercise 2.17]({% link _posts/2020-10-25-ManberChp2Exercise17.md %})
 - Exercise 2.18
 - [Exercise 2.19]({% link _posts/2020-12-02-ManberChp2Exercise19.md %})
+
+### Chapter 3: Analysis of Algorithms
+
+- [Exercise 3.01]({% link _posts/2020-12-06-ManberChp3Exercise01.md %})
