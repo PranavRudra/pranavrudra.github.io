@@ -7,7 +7,7 @@ displayed: false
 
 ## Solution:
 
-We will prove that $T(n) \leq 2^{100}n(\log_2(n))^2$ for all $n \geq 1$.
+We will prove that $T(n) \leq 2^{100}n(\log_2(n))^2$ for all $n \geq 2$.
 
 For the base case, consider $n = 2$. We have 
 
