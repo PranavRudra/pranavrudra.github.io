@@ -27,3 +27,5 @@ $$
         &= O(\log(n))
     \end{align*}
 $$
+
+$$\qed$$

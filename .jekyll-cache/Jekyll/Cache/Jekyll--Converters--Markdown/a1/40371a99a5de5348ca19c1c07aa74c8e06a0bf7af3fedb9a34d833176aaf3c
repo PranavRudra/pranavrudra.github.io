@@ -1,0 +1,19 @@
+I"V<h2 id="solution">Solution:</h2>
+
+<p>We will prove that $T(n) \leq 2^{100}n(\log_2(n))^2$ by induction on $n$.</p>
+
+<p>For the base case, consider $n = 2$. We have</p>
+
+\[T(2) = 4 \leq 2^{100}(2)(\log_2(2))^2 = 2^{101}\]
+
+<p>For the inductive hypothesis (IH), assume that for all $k &lt; n$</p>
+
+\[T(k) \leq 2^{100}k(\log_2(k))^2\]
+
+<p>Now, for the inductive step, we must show that the same holds for $n$. That is,</p>
+
+\[\begin{alignat*}{2}
+        T(n) &amp;= 2T\left(\lfloor \frac{n}{2} \rfloor \right) + 2n\log_2(n) \text{ (by definition of $T(n)$) } \\
+        &amp;\leq
+    \end{alignat*}\]
+:ET

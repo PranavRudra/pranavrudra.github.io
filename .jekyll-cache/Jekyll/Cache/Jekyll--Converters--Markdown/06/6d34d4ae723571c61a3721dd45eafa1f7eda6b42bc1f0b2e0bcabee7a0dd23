@@ -1,0 +1,28 @@
+I"Ñ<h2 id="solution">Solution:</h2>
+
+<p>We will prove that $T(n) \leq 2^{100}n(\log_2(n))^2$ for all $n \geq 1$.</p>
+
+<p>For the base case, consider $n = 2$. We have</p>
+
+\[T(2) = 4 \leq 2^{100}(2)(\log_2(2))^2 = 2^{101}\]
+
+<p>For the inductive hypothesis (IH), assume that for all $k &lt; n$</p>
+
+\[T(k) \leq 2^{100}k(\log_2(k))^2\]
+
+<p>Now, for the inductive step, we must show that the same holds for $n$. That is,</p>
+
+\[\begin{alignat*}{2}
+        T(n) &amp;= 2T\left( \left \lfloor \frac{n}{2} \right\rfloor \right) + 2n\log_2(n) &amp;&amp;\text{ (by definition of $T(n)$) } \\
+        &amp;\leq 2\left[ 2^{100}\left( \left \lfloor \frac{n}{2} \right\rfloor \right) \left(\log_2\left( \left \lfloor \frac{n}{2} \right\rfloor \right) \right)^2 \right] + 2n\log_2(n) &amp;&amp;\text{ (by IH) } \\
+        &amp;\leq 2^{101}\left(\frac{n}{2}\right) \left(\log_2\left(\frac{n}{2}\right)\right)^2 + 2n\log_2(n) \\
+        &amp;= 2^{100} n \left(\log_2(n) - 1\right)^2 + 2n\log_2(n) \\
+        &amp;= 2^{100} n [(\log_2(n))^2 - 2\log_2(n) + 1] + 2n\log_2(n) \\
+        &amp;= 2^{100}n(\log_2(n))^2 - 2^{101}n\log_2(n) + 2^{100}n + 2n\log_2(n) \\
+        &amp;= 2^{100}n(\log_2(n))^2 + 2n[\log_2(n) + 2^{99} - 2^{100}\log_2(n)] \\
+        &amp;= 2^{100}n(\log_2(n))^2 + 2n[2^{99} + (1 - 2^{100})\log_2(n)] \\
+        &amp;\leq 2^{100}n(\log_2(n))^2
+    \end{alignat*}\]
+
+<p>Since $2^{100}$ is a constant and $T(n) \leq 2^{100}n(\log_2(n))^2$ for all $n \geq 1$, $T(n) = O(n(\log_2(n))^2)$.</p>
+:ET

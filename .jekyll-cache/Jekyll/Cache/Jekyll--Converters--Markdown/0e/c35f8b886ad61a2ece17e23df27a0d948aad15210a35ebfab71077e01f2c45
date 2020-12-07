@@ -1,0 +1,16 @@
+I"â<h2 id="solution">Solution:</h2>
+
+<p>a) $f(n) = \Omega(g(n))$</p>
+
+<p>b) $f(n) = \Theta(g(n))$</p>
+
+<p>c) $f(n) = \Omega(g(n))$</p>
+
+<p>d) $f(n) = O(g(n))$</p>
+
+<p>e) $f(n) = O(g(n))$</p>
+
+<p>f) $f(n) = O(g(n))$</p>
+
+\[\qed\]
+:ET

@@ -32,3 +32,5 @@ Solving for the constants yields $c_1 = \frac{1}{6}$, $c_2 = \frac{1}{10}$. Thus
 $$
     T(n) = \frac{1}{6}3^n + \frac{1}{10}5^n 
 $$
+
+$$\qed$$

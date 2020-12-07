@@ -1,0 +1,8 @@
+I"Ë<h2 id="solution">Solution:</h2>
+
+<p>We will prove that $T(n) \leq 2^{100}n(\log_2(n))^2$ by induction on $n$.</p>
+
+<p>For the base case, consider $n = 2$. We have</p>
+
+<p>$$T(2) = 4 \leq 2^{100}(2)</p>
+:ET

@@ -16,3 +16,5 @@ $$(\log_3(n))^5 = O(3^{\log_3(n)}) = O(n)$$
 Therefore, by lemma $3.2$, 
 
 $$n^{\frac{1}{5}}(\log_3(n))^5 = O(n^{\frac{1}{5}}n) = O(n^{1.2})$$
+
+$$\qed$$
