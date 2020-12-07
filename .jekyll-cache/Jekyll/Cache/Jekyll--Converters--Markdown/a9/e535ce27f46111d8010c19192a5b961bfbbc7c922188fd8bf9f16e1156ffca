@@ -1,0 +1,31 @@
+I"t<h2 id="solution">Solution:</h2>
+
+<p>We solve the recurrence for a few values of $n$ to get a feel for it.</p>
+
+\[\begin{alignat*}{2}
+        T(1) &amp;= 1 \\ \\ 
+        T(2) &amp;= T(1) + \frac{n}{2} &amp;&amp;= \frac{n + 2}{2} \\ \\
+        T(3) &amp;= T(2) + \frac{n}{2} &amp;&amp;= \frac{2(3) + 2}{2} \\ \\
+        T(4) &amp;= T(5) + \frac{n}{2} &amp;&amp;= \frac{3n + 2}{2} \\ \\
+        T(5) &amp;= T(4) + \frac{n}{2} &amp;&amp;= \frac{4n + 2}{2}        
+    \end{alignat*}\]
+
+<p>Hence, we propose that</p>
+
+\[T(n) = \frac{n + 2}{2} + \frac{(n - 2)n}{2} = \frac{n^2 - n + 2}{2}\]
+
+<p>We can now prove this via induction on $n$. For the base case, consider $n = 1$. Clearly,</p>
+
+\[T(1) = \frac{1^2 - 1 + 2}{2} = \frac{2}{2} = 1\]
+
+<p>For the inductive hypothesis (IH), assume that for all $k &lt; n$,</p>
+
+\[T(k) = \frac{k^2 - k + 2}{2}\]
+
+<p>Now, for the inductive step, we have</p>
+
+\[\begin{alignat*}{3}
+        T(n) &amp;= T(n - 1) &amp;&amp;+ \frac{n}{2} &amp;&amp;\text{ (by definition of $T(n)$) } \\
+        &amp;= \frac{(n - 1)^2 - (n - 1) + 2}{2} &amp;&amp;+ \frac{n}{2}  &amp;&amp;\text{ (by IH) } \\
+    \end{alignat*}\]
+:ET

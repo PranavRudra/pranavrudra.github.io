@@ -1,0 +1,12 @@
+I"×<h2 id="solution">Solution:</h2>
+
+<p>We solve the recurrence for a few values of $n$ to get a feel for it.</p>
+
+\[\begin{alignat*}{2}
+        T(1) &amp;= 1 \\
+        T(2) &amp;= T(1) + \frac{n}{2} &amp;&amp;= \frac{n + 2}{2} \\
+        T(3) &amp;= T(2) + \frac{n}{2} &amp;&amp;= \frac{2n + 2}{2} \\
+        T(4) &amp;= T(5) + \frac{n}{2} &amp;&amp;= \frac{3n + 2}{2} \\
+        T(5) &amp;= T(4) + \frac{n}{2} &amp;&amp;= \frac{4n + 2}{2} \\        
+    \end{alignat*}\]
+:ET
