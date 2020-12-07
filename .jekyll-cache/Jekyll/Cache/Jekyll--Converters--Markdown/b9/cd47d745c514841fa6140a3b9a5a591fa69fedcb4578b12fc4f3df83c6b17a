@@ -1,0 +1,6 @@
+I"C<h2 id="solution">Solution:</h2>
+
+<p>This is a divide-and-conquer recurrence relation so we can apply the master theorem. Note that $a = 143640, b = 70, k = 2$. Since $143640 &gt; 70^2 = 4900$, we apply the first case. Thus, the asymptotic running time of this algorithm is given by $O(n^{\log_{70}(143640)})</p>
+
+\[\qed\]
+:ET

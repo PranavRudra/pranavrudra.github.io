@@ -39,3 +39,4 @@ This is a (work in progress) solutions manual to Udi Manber's [Introduction to A
 - [Exercise 3.06]({% link _posts/2020-12-06-ManberChp3Exercise06.md %})
 - [Exercise 3.07]({% link _posts/2020-12-06-ManberChp3Exercise07.md %})
 - [Exercise 3.08]({% link _posts/2020-12-06-ManberChp3Exercise08.md %})
+- [Exercise 3.09]({% link _posts/2020-12-06-ManberChp3Exercise09.md %})
