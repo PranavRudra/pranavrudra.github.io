@@ -1,0 +1,8 @@
+I"�<h2 id="solution">Solution:</h2>
+
+<p>The given “proof” is invalid since it assumes that each of the two subtrees only has single leaf node. However, in a complete binary tree, every node in the lowest level is a leaf node. Therefore, a complete binary subtree with $q = 2^k - 1$ total nodes will have $\left \lfloor \frac{q}{2} \right \rfloor$</p>
+
+<p>total leaves.</p>
+
+\[\qed\]
+:ET

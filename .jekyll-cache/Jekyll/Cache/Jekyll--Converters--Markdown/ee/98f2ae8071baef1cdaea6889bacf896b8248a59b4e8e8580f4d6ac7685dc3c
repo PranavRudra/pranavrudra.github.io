@@ -1,0 +1,8 @@
+I"�<h2 id="solution">Solution:</h2>
+
+<p>The given “proof” is invalid since it assumes that each of the two subtrees only has single leaf node. However, in a complete binary tree, every node in the lowest level is a leaf node. Therefore, a complete binary subtree with $\frac{n - 1}{2}$ total nodes ($n \geq 2$) will have</p>
+
+\[2^{\log_{2}\left(\frac{n - 1}{2}\right)} =\]
+
+\[\qed\]
+:ET
