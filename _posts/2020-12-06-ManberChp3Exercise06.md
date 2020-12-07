@@ -10,11 +10,15 @@ displayed: false
 We expand the recurrence to get a feel for it.
 
 $$
-    \begin{alignat*}{3}
-        &T(n) &&= T(n - 1) &&+ \frac{n}{2} \\ \\ 
-        &T(n - 1) &&= T(n - 2) &&+ \frac{(n - 1)}{2} \\ \\
-        &T(n - 2) &&= T(n - 3) &&+ \frac{(n - 2)}{2} \\ \\
-    \end{alignat*}
+    \begin{align*}
+        T(n) &= T(n - 1) + \frac{n}{2} \\ \\ 
+        T(n - 1) &= T(n - 2) + \frac{(n - 1)}{2} \\ \\
+        T(n - 2) &= T(n - 3) + \frac{(n - 2)}{2} \\ \\
+        &\vdots \\
+        T(3) &= T(2) + \frac{3}{2} \\ \\ 
+        T(2) &= T(1) + \frac{2}{2} \\ \\
+        T(1) &= 1
+    \end{align*}
 $$
 
 Hence, we propose that
@@ -32,11 +36,11 @@ $$T(n - 1) = \frac{(n - 2)(n + 1) + 4}{4}$$
 Now, for the inductive step, we have
 
 $$
-    \begin{alignat*}{3}
-        T(n) &= T(n - 1) &&+ \frac{n}{2} &&\text{ (by definition of $T(n)$) } \\
-        &= \frac{(n - 2)(n + 1) + 4}{4} &&+ \frac{n}{2}  &&\text{ (by IH) } \\
-        &= \frac{n^2 + n + 2}{4} \\
-        &= \frac{n^2 + n - 2 + 4}{4} \\
+    \begin{alignat*}{2}
+        T(n) &= T(n - 1) + \frac{n}{2} &&\text{ (by definition of $T(n)$) } \\ \\
+        &= \frac{(n - 2)(n + 1) + 4}{4} + \frac{n}{2}  &&\text{ (by IH) } \\ \\
+        &= \frac{n^2 + n + 2}{4} \\ \\
+        &= \frac{n^2 + n - 2 + 4}{4} \\ \\
         &= \frac{(n - 1)(n + 2) + 4}{4}
     \end{alignat*}
 $$

@@ -1,0 +1,40 @@
+I"Y<h2 id="solution">Solution:</h2>
+
+<p>We expand the recurrence to get a feel for it.</p>
+
+\[\begin{align*}
+        T(n) &amp;= T(n - 1) + \frac{n}{2} \\ \\ 
+        T(n - 1) &amp;= T(n - 2) + \frac{(n - 1)}{2} \\ \\
+        T(n - 2) &amp;= T(n - 3) + \frac{(n - 2)}{2} \\ \\
+    \end{align*}\]
+
+<p>Towards the end of the recursion we see</p>
+
+\[\begin{align*}{2}
+        T(3) &amp;= T(2) &amp;&amp;+ \frac{3}{2} \\ \\ 
+        T(2) &amp;= T(1) &amp;&amp;+ \frac{2}{2} \\ \\
+        T(1) &amp;= 1 \\ \\
+    \end{alignat*}\]
+
+<p>Hence, we propose that</p>
+
+\[T(n) = 1 + \sum_{i = 2}^{n} \frac{i}{2} = 1 + \left(\frac{1}{2}\right)\left(\frac{n - 1}{2}\right)(n + 2) = \frac{(n - 1)(n + 2) + 4}{4}\]
+
+<p>We can now prove this via induction on $n$. For the base case, consider $n = 1$. Clearly,</p>
+
+\[T(1) = \frac{(1 - 1)(1 + 2) + 4}{4} = \frac{4}{4} = 1\]
+
+<p>For the inductive hypothesis (IH), assume that</p>
+
+\[T(n - 1) = \frac{(n - 2)(n + 1) + 4}{4}\]
+
+<p>Now, for the inductive step, we have</p>
+
+\[\begin{alignat*}{3}
+        T(n) &amp;= T(n - 1) &amp;&amp;+ \frac{n}{2} &amp;&amp;\text{ (by definition of $T(n)$) } \\
+        &amp;= \frac{(n - 2)(n + 1) + 4}{4} &amp;&amp;+ \frac{n}{2}  &amp;&amp;\text{ (by IH) } \\
+        &amp;= \frac{n^2 + n + 2}{4} \\
+        &amp;= \frac{n^2 + n - 2 + 4}{4} \\
+        &amp;= \frac{(n - 1)(n + 2) + 4}{4}
+    \end{alignat*}\]
+:ET
