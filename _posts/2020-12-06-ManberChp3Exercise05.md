@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Exercise 3.04 (page 56)
+title: Exercise 3.05 (page 56)
 category: solutions-manual
 displayed: false
 ---
