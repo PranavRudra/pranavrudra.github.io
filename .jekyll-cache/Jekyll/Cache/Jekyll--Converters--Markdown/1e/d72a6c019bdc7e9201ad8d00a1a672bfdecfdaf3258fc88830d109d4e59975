@@ -1,0 +1,4 @@
+I"¦<h2 id="solution">Solution:</h2>
+
+<p>Since this recurrence looks similar to the Fibonacci recurrence we will try $T(n) = c(a^n)$ for constanct $c \in \mathbb{R}$</p>
+:ET

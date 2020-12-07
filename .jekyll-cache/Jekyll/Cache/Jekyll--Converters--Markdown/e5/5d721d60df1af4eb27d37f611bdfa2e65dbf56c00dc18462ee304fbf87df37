@@ -1,0 +1,9 @@
+I"ã<h2 id="solution">Solution:</h2>
+
+<p>Since this recurrence looks similar to the Fibonacci recurrence we will try $T(n) = c(a^n)$.</p>
+
+\[\begin{align*}
+        T(n) &amp;= 8T(n - 1) - 15T(n - 2)
+        ca^n
+    \end{align*}\]
+:ET
