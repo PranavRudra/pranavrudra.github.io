@@ -1,0 +1,6 @@
+I"¬<h2 id="solution">Solution:</h2>
+
+<p>Consider $f(n) = (\log_2(n))^2$ and $g(n) = n$. By theorem $3.1$, $f(n) = O(2^{\log_2(n)}) = O(n)$. Also, $g(n) = O(n)$.</p>
+
+\[\qed\]
+:ET
