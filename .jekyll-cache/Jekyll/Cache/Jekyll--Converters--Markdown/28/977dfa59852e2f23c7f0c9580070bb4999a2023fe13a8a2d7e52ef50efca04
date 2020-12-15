@@ -1,0 +1,8 @@
+I"s<h2 id="solution">Solution:</h2>
+
+\[\begin{align*}
+        S(n) \leq cm\log_2(m)
+    \end{align*}\]
+
+\[\qed\]
+:ET
