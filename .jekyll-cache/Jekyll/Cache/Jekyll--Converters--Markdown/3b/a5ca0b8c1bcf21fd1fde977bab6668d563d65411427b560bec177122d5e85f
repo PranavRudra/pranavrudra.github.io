@@ -1,6 +1,0 @@
-I"à<h2 id="solution">Solution:</h2>
-
-<p>We induct on $n$. For the base case, consider $n = 1$. Since we only have two regions, one inside the circle and one outside, we can easily color the plane with two colors.</p>
-
-\[\qed\]
-:ET

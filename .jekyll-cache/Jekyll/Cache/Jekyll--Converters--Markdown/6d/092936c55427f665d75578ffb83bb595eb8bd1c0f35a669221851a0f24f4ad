@@ -1,8 +1,0 @@
-I"ù<h2 id="solution">Solution:</h2>
-
-<p>Let $P(n)$ be a polynomial in $n$ of degree $k$. That is,</p>
-
-\[P(n) = a_kn^k + a_{k - 1}n^{k - 1} + \cdots + a_1n + a_0\]
-
-<p>where $k \in \mathbb{N}$ and $a_i \in \mathbb{R}$ for $i = 0, 1, 2, \ldots, k$.</p>
-:ET

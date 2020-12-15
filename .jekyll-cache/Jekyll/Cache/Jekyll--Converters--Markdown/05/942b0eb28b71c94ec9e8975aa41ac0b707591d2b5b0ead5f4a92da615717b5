@@ -1,9 +1,0 @@
-I"ã<h2 id="solution">Solution:</h2>
-
-<p>We solve the recurrence for a few values of $n$ to get a feel for it.</p>
-
-\[\begin{alignat*}{2}
-        T(1) &amp;= 1 \\
-        T(2) &amp;= T(1) + \frac{n}{2} &amp;= 
-    \end{alignat*}\]
-:ET

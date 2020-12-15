@@ -48,4 +48,4 @@ This is a (work in progress) solutions manual to Udi Manber's [Introduction to A
 - [Exercise 3.15]({% link _posts/2020-12-08-ManberChp3Exercise15.md %})
 - [Exercise 3.16]({% link _posts/2020-12-08-ManberChp3Exercise16.md %})
 - [Exercise 3.17]({% link _posts/2020-12-09-ManberChp3Exercise17.md %})
-- Exercise 3.18
+- [Exercise 3.18]({% link _posts/2020-12-15-ManberChp3Exercise18.md %})

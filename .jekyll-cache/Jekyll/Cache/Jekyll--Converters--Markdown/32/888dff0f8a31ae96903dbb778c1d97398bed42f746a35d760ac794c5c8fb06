@@ -1,8 +1,0 @@
-I"À<h2 id="solution">Solution:</h2>
-
-<p>This is a divide-and-conquer recurrence relation so we can apply the master theorem.</p>
-
-<p>Observe that $a = 143640, b = 70, k = 2$. Since</p>
-
-\[\qed\]
-:ET

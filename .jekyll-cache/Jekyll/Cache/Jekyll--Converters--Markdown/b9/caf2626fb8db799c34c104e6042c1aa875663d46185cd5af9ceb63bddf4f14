@@ -1,0 +1,33 @@
+I"Í<h2 id="solution">Solution:</h2>
+
+<p>We solve the recurrence for a few values of $n$ to get a feel for it.</p>
+
+\[\begin{align*}
+        T(2) &amp;= 1 \\
+        T(4) &amp;= 2T(2) + 1 = 3 \\
+        T(8) &amp;= 2T(4) + 1 = 7 \\
+        T(16) &amp;= 2T(8) + 1 = 15
+    \end{align*}\]
+
+<p>Hence, we propose that $T(n) = n - 1$. We can prove this via induction.</p>
+
+<p>For the base case, consider $n = 2$.</p>
+
+\[T(2) = 2 - 1 = 1\]
+
+<p>For the inductive hypothesis (IH), assume $\forall k &lt; n$</p>
+
+\[T(k) = k - 1\]
+
+<p>Now, for the inductive step, we must show the claim holds for $n$.</p>
+
+\[\begin{alignat*}{2}
+        T(n) &amp;= 2T\left(\frac{n}{2}\right) + 1 &amp;&amp;\text{ (by definition of $T(n)$)} \\
+        &amp;= 2\left(\frac{n}{2} - 1\right) + 1 &amp;&amp;\text{ (by IH)} \\
+        &amp;= n - 1
+    \end{alignat*}\]
+
+<p>The textâ€™s attempt to show that $T(n) \leq cn$ fails because $cn$ is not a tight upper bound on $T(n)$. One approach to</p>
+
+\[\qed\]
+:ET
