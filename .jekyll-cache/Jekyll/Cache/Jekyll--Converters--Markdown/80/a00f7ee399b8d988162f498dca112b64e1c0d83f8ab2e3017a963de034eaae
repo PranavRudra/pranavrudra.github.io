@@ -1,0 +1,24 @@
+I"ç<h2 id="solution">Solution:</h2>
+
+<p>Expanding the recurrence yields</p>
+
+\[\begin{align*}
+        T(n) &amp;= 2T(n - c) + k \\
+        &amp;= 2[2T(n - 2c) + k] + k \\
+        &amp;= 2[2[2T(n - 3c) + k] + k] + k \\
+        &amp;\vdots \\
+        &amp;= 2^{\frac{n}{c}}T\left(n - c\left(\frac{n}{c}\right) \right) + 2^{\frac{n}{c} - 1}k + 2^{\frac{n}{c} - 1}k \\
+    \end{align*}\]
+
+<p>Alternatively, we can use the master theorem with $a = cm\log_2(m)$, $b = m$, and $k = 1$.</p>
+
+\[a = cm\log_2(m) &gt; m = b^k\]
+
+<p>so we apply the first case. This gives us</p>
+
+\[T(n) = O(n^{\log_m(cm\log(m))})\]
+
+<p>which matches the analysis above.</p>
+
+\[\qed\]
+:ET
