@@ -1,0 +1,12 @@
+I"£<h2 id="solution">Solution:</h2>
+
+<p>Assuming $n = 2^q$ for some $q \geq 1$, we have</p>
+
+\[\begin{align*}
+        T(n) &amp;= k\left[ T\left(\frac{n}{2^1} \right) \right] + f(n) \\\\
+        &amp;= k\left[k\left[ T\left(\frac{n}{2^2} \right) \right] + f(n) \right] + f(n) \\\\
+        &amp;= k\left[k\left[k\left[ T\left(\frac{n}{2^3} \right) \right] + f(n) \right] + f(n)  \right] + f(n)
+    \end{align*}\]
+
+\[\qed\]
+:ET
