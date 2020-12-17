@@ -53,34 +53,53 @@ b)
 $$
     \begin{align*}
         T(n) &= 2T\left(n^{(\frac{1}{2})^1}\right) + 2n \\\\
-        &= 2\left[2T\left(n^{(\frac{1}{2})^2}\right) + 2n  \right] + 2n \\\\
-        &= 2\left[2\left[2T\left(n^{(\frac{1}{2})^3}\right) + 2n  \right] + 2n \right] + 2n \\
+        &= 2\left[2T\left(n^{(\frac{1}{2})^2}\right) + 2\left(n^{(\frac{1}{2})^1}\right)  \right] + 2n \\\\
+        &= 2\left[2\left[2T\left(n^{(\frac{1}{2})^3}\right) + 2\left(n^{(\frac{1}{2})^2}\right)  \right] + 2\left(n^{(\frac{1}{2})^1}\right) \right] + 2n \\
         &\vdots \\
-        &= 2^xT\left(n^{(\frac{1}{2})^x}\right) + 2^{x - 1}(2n) + 2^{x - 2}(2n) + \cdots + 2(2n) + 2n \\\\
-        &= 2^xT\left(n^{(\frac{1}{2})^x}\right) + \sum_{i = 0}^{x - 1} (2n)^i \\\\
-        &= 2^xT\left(n^{(\frac{1}{2})^x}\right) + \frac{(2n)^x - 1}{2n - 1}
+        &= 2^xT\left(n^{(\frac{1}{2})^x}\right) + 2^{x - 1}(2)\left(n^{(\frac{1}{2})^{x - 1}}\right) + 2^{x - 2}(2)\left(n^{(\frac{1}{2})^{x - 2}}\right) + \cdots + 2n\\\\
+        &= 2^{x - 0}T\left(n^{(\frac{1}{2})^{x - 0}}\right) + 2^{x - 0}\left(n^{(\frac{1}{2})^{x - 1}}\right) + 2^{x - 1}\left(n^{(\frac{1}{2})^{x - 2}}\right) + \cdots + 2^{x - (x - 1)}n^{(\frac{1}{2})^{x - x}}
     \end{align*}
 $$
 
-where $x = \log_2\left(\log_2(n)\right)$. 
+where $x = \log_2\left(\log_2(n)\right)$. Now, observe that
 
 $$
     \begin{align*}
-        T(n) &= 2^{\log_2\left(\log_2(n)\right)}T(2) + \frac{(2n)^{\log_2\left(\log_2(n)\right)} - 1}{2n - 1} \\\\
-        &= \log_2(n) +  \frac{\left(\log_2(n)\right)n^{\log_2\left(\log_2(n)\right)} - 1}{2n - 1} \\\\
-        &= \log_2(n) + \frac{\left(\log_2(n)\right)^{\log_2(n) + 1} - 1}{2n - 1} \\\\
-        &= \log_2(n) + \frac{\left(\log_2(n)\right)^{\log_2(n) + 1} - 1}{2\left(2^{\log_2(n)}\right) - 1} \\\\
-        &= \log_2(n) + \frac{\left(\log_2(n)\right)^{\log_2(n) + 1} - 1}{2^{\log_2(n) + 1} - 1} \\\\
-        &\leq C\left(\frac{\log_2(n)}{2}\right)^{\log_2(n) + 1} \\\\
-        &\leq C\left(\log_2(n)\right)^{\log_2(n) + 1}
+        2^{x - j} = 2^{\log_2\left(\log_2(n)\right) - j} = \frac{2^{\log_2\left(\log_2(n)\right)}}{2^j} = \frac{\log_2(n)}{2^j}
     \end{align*}
 $$
 
-where $C$ is a large constant. Thus,
+Additionally, given that
 
 $$
     \begin{align*}
-        T(n) &= O\left(\log(n)^{\log(n)} \right)
+        \left(\frac{1}{2}\right)^{x - j} = \left(\frac{1}{2}\right)^{\log_2\left(\log_2(n)\right) - j} = \frac{\left(\frac{1}{2}\right)^{\log_2\left(\log_2(n)\right)}}{\left(\frac{1}{2}\right)^j} = \frac{2^{-\log_2\left(\log_2(n)\right)}}{\frac{1}{2^j}} = \frac{2^{\log_2\left(\frac{1}{\log_2(n)}\right)}}{\frac{1}{2^j}} = \frac{\frac{1}{\log_2(n)}}{\frac{1}{2^j}} = \frac{2^j}{\log_2(n)}
+    \end{align*}
+$$
+
+we can simplify
+
+$$
+    \begin{align*}
+        n^{\left(\frac{1}{2}\right)^{x - j}} = n^{\frac{2^j}{\log_2(n)}} = \left(n^{\frac{1}{\log_2(n)}}\right)^{2^j} = 2^{2^j}
+    \end{align*}
+$$
+
+Hence,
+
+$$
+    \begin{align*}
+        T(n) &= \log_2(n)T(2) + \left(\frac{\log_2(n)}{2^0}\right)\left(2^{2^1} \right) + \left(\frac{\log_2(n)}{2^1}\right)\left(2^{2^2} \right) + \left(\frac{\log_2(n)}{2^2}\right)\left(2^{2^3} \right) + \cdots + \left(\frac{\log_2(n)}{2^{\log_2\left(\log_2(n)\right) - 1}}\right)\left(2^{2^{\log_2\left(\log_2(n)\right)}} \right) \\\\
+        &= \log_2(n) + \left(\frac{\log_2(n)}{2^0}\right)\left(2^{2^1} \right) + \left(\frac{\log_2(n)}{2^1}\right)\left(2^{2^2} \right) + \left(\frac{\log_2(n)}{2^2}\right)\left(2^{2^3} \right) + \cdots + \left(\frac{\log_2(n)}{2^{\log_2\left(\log_2(n)\right) - 1}}\right)\left(2^{2^{\log_2\left(\log_2(n)\right)}} \right) \\\\
+        &= \log_2(n)\left[1 + \frac{2^{2^1}}{2^0} + \frac{2^{2^2}}{2^1} + \frac{2^{2^3}}{2^2} + \cdots + \frac{2^{2^{\log_2\left(\log_2(n)\right)}}}{2^{\log_2\left(\log_2(n)\right) - 1}}\right] \\\\
+        &= \log_2(n)\left[1 + \left[\sum_{i = 1}^{\log_2\left(\log_2(n)\right)} \frac{2^{2^i}}{2^{i - 1}} \right]\right] \\\\
+        &\leq \log_2(n)\left[1 + \left(\log_2\left(\log_2(n)\right)\right)\left[ \frac{2^{2^{\log_2\left(\log_2(n)\right)}}}{2^{\log_2\left(\log_2(n)\right) - 1}} \right]\right] \\\\
+        &= \log_2(n)\left[1 + \left(\log_2\left(\log_2(n)\right)\right)\left[ \frac{n}{\frac{2^{\log_2\left(\log_2(n)\right)}}{2}} \right]\right] \\\\
+        &= \log_2(n)\left[1 + \left(\log_2\left(\log_2(n)\right)\right)\left[ \frac{n}{\frac{\log_2(n)}{2}} \right]\right] \\\\
+        &= \log_2(n)\left[1 + \left(\log_2\left(\log_2(n)\right)\right)\left[ \frac{2n}{\log_2(n)} \right]\right] \\\\
+        &= \log_2(n) + 2n\left(\log_2\left(\log_2(n)\right)\right) \\\\
+        &= O\left(n\log\left(\log(n)\right)\right)
+
     \end{align*}
 $$
 
