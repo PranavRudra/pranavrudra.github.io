@@ -1,0 +1,10 @@
+I"µ<h2 id="solution">Solution:</h2>
+
+<p>a) We first expand the recurrence to get a feel for it</p>
+
+\[\begin{align*}
+        T(n) &amp;= 4T(n^{\frac{}{}})
+    \end{align*}\]
+
+\[\qed\]
+:ET

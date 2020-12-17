@@ -1,0 +1,16 @@
+I" <h2 id="solution">Solution:</h2>
+
+<p>a) We first expand the recurrence to get a feel for it</p>
+
+\[\begin{align*}
+        T(n) &amp;= 4T\left(n^{(\frac{1}{2})^1}\right) + 1 \\\\
+        &amp;= 4\left[4T\left(n^{(\frac{1}{2})^2}\right) + 1  \right] + 1 \\\\
+        &amp;= 4\left[4\left[4T\left(n^{(\frac{1}{2})^3}\right) + 1  \right] + 1 \right] + 1 \\
+        &amp;\vdots \\
+        &amp;= 4^xT\left(n^{(\frac{1}{2})^x}\right) + 4^{x - 1}(1) + 4^{x - 2}(1) + \cdots + 4(1) + 1 \\\\
+        &amp;= 4^xT\left(n^{(\frac{1}{2})^x}\right) + \sum_{i = 0}^{x - 1} 4^i \\\\
+        &amp;= 4^xT\left(n^{(\frac{1}{2})^x}\right) + \frac{4^x - 1}{4 - 1}
+    \end{align*}\]
+
+\[\qed\]
+:ET
