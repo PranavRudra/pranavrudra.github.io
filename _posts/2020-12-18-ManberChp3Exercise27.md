@@ -72,7 +72,7 @@ $$
     c \geq 1 + \left(\frac{c}{2} + \frac{c}{\log_2(n)}\right) \implies \left(\frac{c}{2} - \frac{c}{\log_2(n)}\right) \geq 1 \implies c \geq \left(\frac{1}{\frac{1}{2} - \frac{1}{\log_2(n)}}\right)
 $$
 
-which suggests $c \geq 2$ iff $n > 4$. Thus, $\left[\forall n \geq 5\right]\ T(n) \leq cn$ so $T(n) = O(n)$.
+which suggests $c \geq 2$ iff $n > 4$. Thus, $\left[\forall n \geq 5\right]\ T(n) \leq 2n$ so $T(n) = O(n)$.
 
 However, $T(n) = \Omega(n)$ as well so we can simply write $T(n) = \Theta(n)$ (as conjectured). 
 
