@@ -56,3 +56,4 @@ This is a (work in progress) solutions manual to Udi Manber's [Introduction to A
 - [Exercise 3.23]({% link _posts/2020-12-16-ManberChp3Exercise23.md %})
 - [Exercise 3.24]({% link _posts/2020-12-17-ManberChp3Exercise24.md %})
 - [Exercise 3.25]({% link _posts/2020-12-18-ManberChp3Exercise25.md %})
+- [Exercise 3.26]({% link _posts/2020-12-18-ManberChp3Exercise26.md %})

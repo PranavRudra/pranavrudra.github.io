@@ -19,7 +19,7 @@ $$
 
 which is a divide-and-conquer recurrence with $a = 2, b = 2, k = 1$. 
 
-Hence, by the third case ($a = b^k$) of the master theorem, we know that
+Hence, by the second case ($a = b^k$) of the master theorem, we know that
 
 $$
     T(n) = O(n\log(n))
