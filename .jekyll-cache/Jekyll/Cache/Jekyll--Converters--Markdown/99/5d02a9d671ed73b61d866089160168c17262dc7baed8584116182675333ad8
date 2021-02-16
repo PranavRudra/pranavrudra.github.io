@@ -1,0 +1,10 @@
+I"«<h2 id="solution">Solution:</h2>
+
+<p>We start with the forward direction. By theorem $1.1.4$, $A \cap B \subseteq A$. Now, let $x$ be an element of $A$. Since $A \subseteq B$, $x \in B$. Therefore, $x \in A \land x \in B$, or, in other words, $x \in A \cap B$. Thus, we have shown $A \subseteq A \cap B$. This completes the forward direction because, by definition of set equality,</p>
+
+\[\left(A \subseteq A \cap B\right) \land \left(A \cap B \subseteq A\right) \implies A = A \cap B\]
+
+<p>For the reverse direction, observe that by set equality, $A \subseteq A \cap B$. Then, by theorem $1.1.4$, $A \cap B \subseteq B$. Hence, $x \in A, x \in \left(A \cap B\right) \</p>
+
+\[\qed\]
+:ET

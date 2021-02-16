@@ -1,0 +1,6 @@
+I"-<h2 id="solution">Solution:</h2>
+
+<p>We start with the forward direction. By theorem $1.1.4$, $A \cap B \subseteq A$. Now, let $x$ be an element of $A$. Since $A \subseteq B$, $x \in B$. Therefore, $x \in A \land x \in B$,  (i.e. $x \in A \cap B$). Thus, we have $A \subseteq A \cap B$.</p>
+
+\[\qed\]
+:ET

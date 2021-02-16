@@ -1,0 +1,14 @@
+I"â<h2 id="solution">Solution:</h2>
+
+<p>We start with the forward direction. By theorem $1.1.4$, $A \cap B \subseteq 
+\(\begin{align*}
+    A \cup B &amp;= \{x, y, z, w\} \\
+    A \cap B &amp;= \{y \} \\
+    A \setminus B &amp;= \{x, z\} \\
+    B \setminus A &amp;= \{w\} \\
+    A \times B &amp;= \{(x, y), (x, w), (y, y), (y, w), (z, y), (z, w) \} \\
+    \mathcal{P}(A) &amp;= \{\emptyset, \{x\}, \{y\}, \{z\}, \{x, y\}, \{x, z\}, \{y, z\}, \{x, y, z\} \}
+\end{align*}\)</p>
+
+\[\qed\]
+:ET
