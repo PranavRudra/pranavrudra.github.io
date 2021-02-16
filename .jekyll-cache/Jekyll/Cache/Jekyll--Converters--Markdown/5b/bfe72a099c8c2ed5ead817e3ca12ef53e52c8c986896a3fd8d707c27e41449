@@ -1,0 +1,12 @@
+I"<h2 id="solution">Solution:</h2>
+
+\[\begin{align*}
+    A \cup B &amp;= \{x, y, z, w\} \\
+    A \cap B &amp;= \{y \} \\
+    A \setminus B &amp;= \{x, z\} \\
+    B \setminus A &amp;= \{w\} \\
+    A \times B &amp;= \{(x, y), (x, w), (y, y), (y, w), (z, y) \}
+\end{align*}\]
+
+\[\qed\]
+:ET

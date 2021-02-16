@@ -1,8 +1,0 @@
-I"ç<h2 id="solution">Solution:</h2>
-
-<p>Given that</p>
-
-\[\sqrt{n} &lt; \frac{n}{2} \implies n &lt; \frac{n^2}{4} \implies n &gt; 4\]
-
-\[\qed\]
-:ET
