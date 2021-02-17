@@ -1,0 +1,55 @@
+I"	<h2 id="solution">Solution:</h2>
+
+<p>a) Let $x$ be an element of $A$.</p>
+
+\[\begin{alignat*}{2}
+        x \in A &amp;\implies x \in B &amp;&amp;\text{ (since $A \subseteq B$)} \\
+        &amp;\implies x \in C &amp;&amp;\text{ (since $B \subseteq C$)} \\
+        &amp;\implies A \subseteq C &amp;&amp;\text{ (by defn. of subset)}
+    \end{alignat*}\]
+
+\[\qed\]
+
+<p>b) Let $x$ be an element of $A$.</p>
+
+\[\begin{alignat*}{2}
+        x \in A &amp;\implies (x \in A) \lor (x \in B) &amp;&amp;\text{ (by elementary logic)} \\
+        &amp;\implies x \in A \cup B &amp;&amp;\text{ (by defn. of union)} \\
+        &amp;\implies A \subseteq A \cup B &amp;&amp;\text{ (by defn. of subset)}
+    \end{alignat*}\]
+
+<p>Now, let $x$ be an element of $A \cup B$</p>
+
+\[\begin{alignat*}{2}
+        x \in A \cup B &amp;\implies (x \in A) \lor (x \in B) &amp;&amp;\text{ (by defn. of union)} \\
+        &amp;\implies (x \in A) \lor (x \in A) &amp;&amp;\text{ (since $A \subseteq B$)} \\
+        &amp;\implies x \in A &amp;&amp;\text{ (by elementary logic)} \\
+        &amp;\implies A \cup B \subseteq A &amp;&amp;\text{ (by defn. of subset)}
+    \end{alignat*}\]
+
+<p>Then, $(A \subseteq A \cup B) \land (A \cup B \subseteq A) \implies A = A \cup B$ by defn. of set equality.</p>
+
+\[\qed\]
+
+<p>c) Let $x$ be an element of $B \cup C$.</p>
+
+\[\begin{alignat*}{2}
+        x \in B \cup C &amp;\implies (x \in B) \lor (x \in C) &amp;&amp;\text{ (by elementary logic)} \\
+        &amp;\implies (x \in A) \lor (x \in C) &amp;&amp;\text{ (since $B \subseteq A$)} \\
+        &amp;\implies x \in A \cup C &amp;&amp;\text{ (by defn. of union)} \\
+        &amp;\implies (B \cup C) \subseteq (A \cup C) &amp;&amp;\text{ (by defn. of subset)}
+    \end{alignat*}\]
+
+<p>Now, let $x$ be an element of $B \cap C$</p>
+
+\[\begin{alignat*}{2}
+        x \in B \cap C &amp;\implies (x \in B) \land (x \in C) &amp;&amp;\text{ (by defn. of intersection)} \\
+        &amp;\implies (x \in A) \land (x \in C) &amp;&amp;\text{ (since $B \subseteq A$)} \\
+        &amp;\implies x \in A \cap C &amp;&amp;\text{ (by defn. of intersection)} \\
+        &amp;\implies (B \cup C) \subseteq (A \cup C) &amp;&amp;\text{ (by defn. of subset)}
+    \end{alignat*}\]
+
+<p>Then, $(A \subseteq A \cup B) \land (A \cup B \subseteq A) \implies A = A \cup B$ by defn. of set equality.</p>
+
+\[\qed\]
+:ET

@@ -1,0 +1,10 @@
+I"ù<h2 id="solution">Solution:</h2>
+
+\[|\mathcal{P}(S)| = 2^{12}\]
+
+<p>Every subset $S‚Äô \ne S$ is properly contained in $S$. Therefore,</p>
+
+\[|\\]
+
+\[\qed\]
+:ET

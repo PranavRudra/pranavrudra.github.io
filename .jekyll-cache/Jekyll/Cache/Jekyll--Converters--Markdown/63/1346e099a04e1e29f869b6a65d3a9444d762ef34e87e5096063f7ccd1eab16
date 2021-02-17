@@ -1,0 +1,30 @@
+I"’<h2 id="solution">Solution:</h2>
+
+<p>a) Let $x$ be an element of $A$.</p>
+
+\[\begin{alignat*}{2}
+        x \in A &amp;\implies x \in B &amp;&amp;\text{ (since $A \subseteq B$)} \\
+        &amp;\implies x \in C &amp;&amp;\text{ (since $B \subseteq C$)} \\
+        &amp;\implies A \subseteq C &amp;&amp;\text{ (by defn. of subset)}
+    \end{alignat*}\]
+
+<p>b) Let $x$ be an element of $A$.</p>
+
+\[\begin{alignat*}{2}
+        x \in A &amp;\implies x \in A &amp;&amp;\text{ (obviously)} \\
+        &amp;\implies (x \in A) \lor (x \in B) &amp;&amp;\text{ (by elementary logic)} \\
+        &amp;\implies x \in A \cup B &amp;&amp;\text{ (by defn. of union)} \\
+        &amp;\implies A \subseteq A \cup B &amp;&amp;\text{ (by defn. of subset)}
+    \end{alignat*}\]
+
+<p>Also,</p>
+
+\[\begin{alignat*}{2}
+        x \in A \cup B &amp;\implies (x \in A) \lor (x \in B) &amp;&amp;\text{ (obviously)} \\
+        &amp;\implies (x \in A) \lor (x \in B) &amp;&amp;\text{ (by elementary logic)} \\
+        &amp;\implies x \in A \cup B &amp;&amp;\text{ (by defn. of union)} \\
+        &amp;\implies A \subseteq A \cup B &amp;&amp;\text{ (by defn. of subset)}
+    \end{alignat*}\]
+
+\[\qed\]
+:ET

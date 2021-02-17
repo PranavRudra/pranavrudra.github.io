@@ -1,0 +1,12 @@
+I"D<h2 id="solution">Solution:</h2>
+
+<p>a) Let $x$ be an element of $A$.</p>
+
+\[\begin{align*}
+        x \in A &amp;\implies x \in B \text{ (since $A \subseteq B$)} \\
+        &amp;\implies x \in C \text{ (since $B \subseteq C$)} \\
+        &amp;\implies A \subseteq C \text{ (by defn. of subset)}
+    \end{align*}\]
+
+\[\qed\]
+:ET

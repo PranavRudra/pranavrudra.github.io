@@ -1,0 +1,11 @@
+I"Í<h2 id="solution">Solution:</h2>
+
+<p>a) Let $x$ be an element of $A$.</p>
+
+\[\begin{align*}
+        x \in A \\
+        &amp;\implies x \in B \text{ (since $A \subseteq B$)} \\
+    \end{align*}\]
+
+\[\qed\]
+:ET
